@@ -10,7 +10,7 @@ use CodeIgniter\HTTP\ResponseInterface;
 class BlogController extends BaseController
 {
     use ResponseTrait;
-    
+
     private $blogObj;
 
     public function __construct()
